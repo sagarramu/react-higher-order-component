@@ -7,10 +7,10 @@ class App extends React.Component {
 
     //Destructuring the props
 
-    const { show, handleclick } = this.props;
+    const { show, onClickCounter } = this.props;
 
     //Calling out the props
-    return <button onClick={handleclick}>{show}</button>
+    return <button onClick={onClickCounter}>{show}</button>
 
   }
 }

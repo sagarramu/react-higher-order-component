@@ -18,7 +18,7 @@ const EnhancedComponent = (OriginalComponent) => {
             // passed a handleclick and count in the originalComponent
             // as a props for calling and adding the functionality
 
-            return <OriginalComponent handleClick={this.handleClick} show={this.state.count} />
+            return <OriginalComponent onClickCounter={this.handleClick} show={this.state.count} />
         }
     }
 
